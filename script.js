@@ -1,4 +1,4 @@
-let js = "amazing";
+/*let js = "amazing";
 if (js === 'amazing') {
   // alert('js is always have fun')
 }
@@ -35,4 +35,42 @@ x *= 2;//180
 x /= 2;//let's see
 x %= 2;
 console.log(x);
+x *= 2;
+console.log(x)
+x = 90;
+x /= 2;
+console.log(x)
+*/
+//string vs temp literals
+/*
+const firstName = 'mohan';
+const ageMohan = 23;
+const job = 'Developer'
+
+const mohan = "i'm " + firstName + ' ,' + 'a ' + ageMohan + 'years' + ' old ' + job;
+console.log(mohan)
+
+// Temp literals
+const newMohan = `I'm ${firstName},a ${ageMohan}years old ${job}`;
+console.log(newMohan)
+
+//string Multi lines
+
+/*console.log('sijijijs
+dujuudu
+jisjjsijisw'); // sysntax error*/
+/*
+console.log(`string
+with
+multi lines`);
+console.log(`string \n with ...`)//bug
+console.log(`string \n\
+with multi\n\ line`)//bug
+console.log(`string \n
+with multi\n line`)//bug
+*/
+
+// if else control structure
+
+
 

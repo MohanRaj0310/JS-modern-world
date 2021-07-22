@@ -30,3 +30,15 @@ if (x1) {
   y = 100;
 }
 console.log(y)
+
+// if var keyword
+
+let w = 90;
+var D;
+if (w) {
+  var D = 89;
+} else {
+  var D = 78;
+}
+
+console.log(D)
