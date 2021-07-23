@@ -42,3 +42,12 @@ if (w) {
 }
 
 console.log(D)
+
+//check out
+x = false;
+if (x) {
+  console.log(`is this block give appropriate spave to the console let's see`)
+} else {
+
+}
+console.log('uruuf')

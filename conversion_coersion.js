@@ -46,3 +46,13 @@ console.log('90' > 78, '78' < 90) // true true
 
 console.log('90' + 78 + 78 + '56' - 45 - '56') // 90787755 (num)
 
+/// assignment operator
+
+let x = '90';
+y = x *= 80;
+z = x -=90;
+r = x++;
+g = x--;
+console.log(x)
+console.log(x, y, z,r,g)
+
