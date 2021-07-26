@@ -11,7 +11,7 @@ console.log(Number('90'), String());// 90, ''
 console.log(Number('90'), String(13848));//90 '13848'
 
 console.log(Boolean())// default value is 0
-// console.log(undefined())// typeerror
+// console.log(undefined())// Uncaught TypeError: undefined is not a function
 // console.log(Null())//  Uncaught ReferenceError: Null is not defined
 console.log(Object())// >{}
 // console.log(BigInt()) //  Uncaught TypeError: Cannot convert undefined to a BigInt

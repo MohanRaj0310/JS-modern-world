@@ -1,6 +1,6 @@
 // 5 falsy values are 0 '' null NaN undefined
 
-// falsy values are not actually false value. then it becomes value wen convert it into boolean
+// falsy values are not actually falsy value. then it becomes value when convert it into boolean
 // boolean conversion doesn't happen explicity
 // implicitly in 2 scenario
       // 1. logical operator
@@ -23,7 +23,7 @@ console.log(Boolean(true))//1
 console.log(Boolean(58034))//1
 console.log(Boolean(1))///1
 
-// js does boolean work implicitily when if-else occur
+// js does boolean work implicitily when if-else 
 
 const money = 0;
 

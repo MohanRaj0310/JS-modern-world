@@ -4,7 +4,7 @@ if (mohanage >= 18) {
   console.log(`you can take driving license`)
 } else {
   let yearsLeft = 18 - mohanage;
-  console.log(`you are too young so, time to be taken licence for ${mohanage} years`)
+  console.log(`you are too young so, time to be taken licence for ${yearsLeft} years`)
 }
 
 // unknown fact of variable scope with in or outside
@@ -12,7 +12,7 @@ if (mohanage >= 18) {
 let x = 1990;
 
 if (x <= 2000) {
-  let century = 2000 - x;//block level scope. can't referencing in outside of this scope
+  let century = 2000 - x;//x would be accessed from local scope but century is not accessible from outside of this scoep
   console.log(`in ${century} years , you will get century`)
 } else {
   let century;
@@ -29,7 +29,7 @@ if (x1) {
 } else {
   y = 100;
 }
-console.log(y)
+console.log(y)//90
 
 // if var keyword
 
@@ -41,13 +41,13 @@ if (w) {
   var D = 78;
 }
 
-console.log(D)
+console.log(D)//89
 
 //check out
 x = false;
 if (x) {
   console.log(`is this block give appropriate spave to the console let's see`)
 } else {
-
+    //don't give newline no chance!!!!
 }
 console.log('uruuf')
