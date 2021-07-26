@@ -20,6 +20,7 @@ switch (1) {
       let forbids = 'something tobe forbidden'
       forbid = `hides something`
       console.log(forbids)
+    console.log('ee')
       break;
   default:
     // console.log(`am i going to live silently ${d}`)//strict_mode.js:21 Uncaught ReferenceError: forbid is not defined
