@@ -2,7 +2,7 @@
 //Logical operator
 
 //mohan should have driverlicence and has goodVision and was not tired while driving
-// aim is to drive the car even if fails to meet the criteria
+// aim is to drive the car even if fails to meet the criteria so, answer should be true
 
 const hasDriverLicence = true
 const hasGoodVision = false
