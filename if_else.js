@@ -4,7 +4,7 @@ if (mohanage >= 18) {
   console.log(`you can take driving license`)
 } else {
   let yearsLeft = 18 - mohanage;
-  console.log(`you are too young so, time to be taken licence for ${mohanage} years`)
+  console.log(`you are too young so, time to be taken licence for ${yearsLeft} years`)
 }
 
 // unknown fact of variable scope with in or outside
