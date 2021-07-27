@@ -12,3 +12,10 @@ function operation (x,y,z){
 
 const average = operation(23, 90, 67)
 console.log(average)
+
+//Review the code
+
+// const age = 90;
+// age = 78;// Uncaught TypeError: Assignment to constant variable
+// console.log(age)
+ 
