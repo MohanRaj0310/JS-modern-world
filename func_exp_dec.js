@@ -12,6 +12,7 @@ function calcAge (birthYear){
 
 console.log(calcAge(1999))
 console.log(accessAge)
+console.log(typeof calcAge)//function is not a datatype
 
 //function expression
 
@@ -23,6 +24,9 @@ let calcAge2 = function (birthYear){
 }
 
 const nowAge = calcAge2(1999)
-console.log(nowAge) 
+console.log(nowAge)
+console.log(typeof calcAge2)//function
 
-//can easily change
+//simply mutate the function expression
+calcAge2 = `this func is going to get replaced with some value`;
+console.log(calcAge2, `\n${typeof calcAge2}`)
