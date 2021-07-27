@@ -70,3 +70,11 @@ if (billValue >= 50 && billValue <= 300){
 
 const totalBill = tip === 15/100 ? `the usual tip for given value is ${billValue*tip}` : 'for given value, the tip is ${billValue*tip}'
 console.log(totalBill)
+
+//1997 function
+
+function add(n){
+  var x = 5 + add.arguments[0]
+  return x;
+}
+console.log(add(90))

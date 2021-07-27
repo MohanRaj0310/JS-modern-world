@@ -18,7 +18,7 @@ switch (1) {
   case 1:
     case 1:
       let forbids = 'something tobe forbidden'
-      forbid = `hides something`
+      // forbid = `hides something`
       console.log(forbids)
       break;
   default:
