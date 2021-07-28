@@ -126,3 +126,10 @@ let total = [bills[0]+tips[0],bills[1]+tips[1],bills[2]+tips[2]]
 console.log(total)
 
 console.log(x, y)
+console.log(bills, tips)//125,555,440.15,0.2,0.2
+console.log(bills+90)//125,555,4490
+console.log(09 + bills)//125,555,4490
+console.log(bills-90)//NaN
+console.log(bills*8)//NaN
+
+console.log(bills + tips)
