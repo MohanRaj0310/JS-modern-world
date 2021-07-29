@@ -265,6 +265,8 @@ console.log(inner)*/
 
 // Array
 let age = 17
-const years = [13,122,`${age}`,129930, age > 18 ? 'addad': console.log('difrif'), [23,'dssd', true, !false, age++, ++age, --age, age--, console.log('nested array')],console.log('wow js is awazing')]
+const years = [13, 122, `${age}`, 129930, age > 18 ? 'addad' : console.log('difrif'), [23, 'dssd', true, !false, age++, ++age, --age, age--, console.log('nested array')], console.log('wow js is awazing')]
 console.log(typeof Array)
 console.log(Array)
+console.log(typeof Array());//object
+console.log();
