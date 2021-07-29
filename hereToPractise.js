@@ -10,3 +10,5 @@ let PI = 3.14;
 console.log(PI)
 PI = 90
 console.log(PI)
+console.log('dje')
+console.log('df')
