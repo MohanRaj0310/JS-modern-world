@@ -78,6 +78,28 @@ console.log(b)
 
 
 
+if ('str' === "str"){
+  console.log(1)
+  unreferVar = 90
+}
+function func2(){
+  unreferVar = 78;
+}
+console.log(unreferVar)//90
+func2()
+console.log(unreferVar)//78
+
+if (1){
+  function func2(){
+    unreferVar = 56;
+    let d = 78
+    var df= 90
+  }
+}
+func2()
+console.log(unreferVar)//56
+// console.log(df)//undefined
+
 
 
 
