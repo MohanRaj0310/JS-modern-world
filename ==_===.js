@@ -46,7 +46,7 @@ console.log(0 === Number())// true**************
 console.log(typeof true)
 console.log(typeof 0);
 console.log(typeof null)
-console.log(typeof Object)
+console.log(typeof Object)//function
 
 
 x = 0;
@@ -77,6 +77,28 @@ console.log(m);
 console.log(b)
 
 
+
+if ('str' === "str"){
+  console.log(1)
+  unreferVar = 90
+}
+function func2(){
+  unreferVar = 78;
+}
+console.log(unreferVar)//90
+func2()
+console.log(unreferVar)//78
+
+if (1){
+  function func2(){
+    unreferVar = 56;
+    let d = 78
+    var df= 90
+  }
+}
+func2()
+console.log(unreferVar)//56
+// console.log(df)//undefined
 
 
 
