@@ -46,7 +46,7 @@ console.log(0 === Number())// true**************
 console.log(typeof true)
 console.log(typeof 0);
 console.log(typeof null)
-console.log(typeof Object)
+console.log(typeof Object)//function
 
 
 x = 0;
