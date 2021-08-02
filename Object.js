@@ -47,3 +47,17 @@ const mohan = {
 
 console.log(mohan)
 
+//onject
+console.log(typeof mohan)
+console.log(Object)
+console.log(Object())
+console.log(typeof Object)
+console.log(typeof Object())
+
+//array
+console.log(typeof arrayMohan)
+console.log(Array)
+console.log(Array())
+console.log(typeof Array)
+console.log(typeof Array())
+console.log(Object)
