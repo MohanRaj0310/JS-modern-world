@@ -56,22 +56,27 @@ for (i = 1; i <= promptVal; i++) {
 
 /****************Write a program that reads a set of integers, and then prints the sum of the even and odd integers. */
 
-let integers = [23, 45, 56, 78, 44, 55, 89]
-let even = [];
-let add = new Array();
+// let integers = [23, 45, 56, 78, 44, 55, 89]
+// let even = [];
+// let add = new Array();
 
-let i = 0;
-while (i < integers.length) {
-  if (integers[i] % 2) {
-    add.push(integers[i])
-  } else {
-    even.push(integers[i])
-  }
-  i++;
-}
+// let i = 0;
+// while (i < integers.length) {
+//   if (integers[i] % 2) {
+//     add.push(integers[i])
+//   } else {
+//     even.push(integers[i])
+//   }
+//   i++;
+// }
 
 // console.log(even)
 // console.log(add)
-console.log('ayyoo')
-console.log(even)
-console.log(add)
+// console.log('ayyoo')
+// console.log(even)
+// console.log(add)
+
+/************************Web wrokers */
+
+console.log(typeof Worker)//
+
