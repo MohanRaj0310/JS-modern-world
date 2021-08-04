@@ -49,7 +49,7 @@ console.log(x)//6
 let i = 0
 console.log(i++)
 console.log(i)//1
-i =2;
+i = 2;
 console.log(++i)//3  is not an expression?
 console.log(i)//3
 
@@ -61,3 +61,13 @@ let array = [
   console.log(`${i--}`),//4
   console.log(i)//3
 ]
+
+//sum of the first 10 natural numbers
+
+let c = 0;
+for (i = 1; i <= 10; i++) {
+  console.log(i + c)//55
+  c += i;
+}
+
+// console.log(c)// 0+1=1, 1+2=3, 3+3=6, 
