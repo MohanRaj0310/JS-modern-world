@@ -63,11 +63,15 @@ let add = new Array();
 let i = 0;
 while (i < integers.length) {
   if (integers[i] % 2) {
-    even.push(integers[i])
-  } else {
     add.push(integers[i])
+  } else {
+    even.push(integers[i])
   }
+  i++;
 }
 
+// console.log(even)
+// console.log(add)
+console.log('ayyoo')
 console.log(even)
 console.log(add)
