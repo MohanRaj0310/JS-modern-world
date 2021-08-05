@@ -76,7 +76,7 @@ for (i = 1; i <= promptVal; i++) {
 // console.log(even)
 // console.log(add)
 
-// Write a program that prompts the user to input a positive integer. It should then output a message indicating whether the number is a prime number. 
+// Write a program that prompts the user to input a positive integer. It should then output a message indicating whether the number is a prime number.
 
 /*********for one value */
 // let x;
@@ -222,3 +222,21 @@ for (i = 1; i <= promptVal; i++) {
 // console.log(`HCF is ${number1}`);
 
 // // console.log(45, prompt(23))
+
+'use strict';
+
+const obj = 90;
+console.log('ckjv');
+
+const func = x => {
+  return x;
+};
+
+console.log();
+console.log(obj);
+console.log();
+
+//TODO
+// BUG
+
+console.log('ejeduue');
