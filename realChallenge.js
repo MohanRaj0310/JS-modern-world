@@ -1,5 +1,7 @@
 /**********A user who enters the input(integers) through prompt. it should then print the multiplication table of that number*/
 
+// const { indexOf } = require('core-js/core/array');
+
 /*const promptVal = prompt('Enter your number that you want to be multiplicated till 10')
 
 let rep = 0;
@@ -223,20 +225,136 @@ for (i = 1; i <= promptVal; i++) {
 
 // // console.log(45, prompt(23))
 
-'use strict';
+// 'use strict';
 
-const obj = 90;
-console.log('ckjv');
+// const obj = 90;
+// console.log('ckjv');
 
-const func = x => {
-  return x;
-};
+// const func = x => {
+//   return x;
+// };
 
-console.log();
-console.log(obj);
-console.log();
+// console.log();
+// console.log(obj);
+// console.log();
 
-//TODO
-// BUG
+// //TODO
+// // BUG
 
-console.log('ejeduue');
+// console.log('ejeduue');
+// console.log(func);
+// console.log(obj);
+
+let profile = [
+  {
+    name: 'mohan',
+    score: 56,
+  },
+  {
+    name: 'mohan',
+    score: 90,
+  },
+  {
+    name: 'yuva',
+    score: 30,
+  },
+];
+
+// let property1 = profile[0];
+// console.log(property1.name);
+
+// function equalProperty(profile) {
+//   for (let i = 0; i < profile.length; i++) {
+//     var profileName = [];
+//     var profileScore = [];
+//     for (let j = 0; j < profile.length; j++) {
+//       if (
+//         profile[i].name === profile[j].name ||
+//         profile[i].score === profile[i].score[j]
+//       ) {
+//         if (profile[i] === String()) {
+//           profileName.push(profile[i]);
+//         } else if (typeof profile[i] === 'number') {
+//           profileScore.push(profile[i]);
+//         }
+//       }
+//     }
+//   }
+//   var temp = [];
+//   for (let i = 0; i < profileName.length; i++) {
+//     for (let j = 0; j < profileName.length; j++) {
+//       if (profileName[i] === profileName[j]) {
+//         temp.push(profileName[i]);
+//       }
+//     }
+//   }
+//   var temp2 = [];
+//   for (let i = 0; i < profileScore.length; i++) {
+//     for (let j = 0; j < profileScore.length; j++) {
+//       if (profileScore[i] === profileScore[j]) {
+//         temp2.push(profileScore[i]);
+//       }
+//     }
+//   }
+//   console.log(temp2);
+// }
+
+// equalProperty(profile);
+// console.log(temp)
+// console.log(temp2)
+
+// let name1 = [];
+// let scoreArr = [];
+
+// profile.map(obj => {
+//   console.log(obj);
+//   if (obj.name) {
+//     name1.push(obj.name);
+//   }
+
+//   scoreArr.push(obj.score);
+// });
+// console.log(name1);
+// console.log(scoreArr);
+
+//
+
+// function sample() {
+//   if (1) {
+//     if (1) {
+//       // let e = 90;
+//       var y = 45;
+//       if (1) {
+//         var temp = 89;
+//         var u = 90;
+//         console.log(y);
+//       }
+//     }
+//     console.log(temp);
+//   }
+// }
+
+// sample();
+
+// console.log(u, temp);
+
+// [10, 2, 5, 100, 8].filter((number)=> numb
+//
+// er < 20)
+// console.log([10, 2, 5, 100, 8].filter(numbe
+// r => number < 20));
+// let array = [90, 90, 67, 89];
+
+// var temp = [];
+// for (let i = 0; i < array.length; i++) {
+//   for (let j = 1; j <= array.length; j++) {
+//     if ((x = array[indexOf(i)] === array[indexOf(i)])) temp.push[array[i]];
+//     // console.log(temp);
+//   }
+// }
+// console.log(temp);
+
+// console.log(array[1] === array[2]);
+// console.log(x);
+// console.log(array[1]);
+// syntax error
