@@ -245,20 +245,20 @@ for (i = 1; i <= promptVal; i++) {
 // console.log(func);
 // console.log(obj);
 
-let profile = [
-  {
-    name: 'mohan',
-    score: 56,
-  },
-  {
-    name: 'mohan',
-    score: 90,
-  },
-  {
-    name: 'yuva',
-    score: 30,
-  },
-];
+// let profile = [
+//   {
+//     name: 'mohan',
+//     score: 56,
+//   },
+//   {
+//     name: 'mohan',
+//     score: 90,
+//   },
+//   {
+//     name: 'yuva',
+//     score: 30,
+//   },
+// ];
 
 // let property1 = profile[0];
 // console.log(property1.name);
