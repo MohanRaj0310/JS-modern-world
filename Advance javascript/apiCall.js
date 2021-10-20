@@ -27,20 +27,37 @@ of doing AJAX calls. */
 // // console.log(typeof request)// object
 // console.log('huury up')
 
-const request = new XMLHttpRequest()
-request.open('GET', 'https://restcountries.com/v3.1/name/india')
-const data = request.send()
-console.log(data)//undefined
+// const request = new XMLHttpRequest()
+// request.open('GET', 'https://restcountries.com/v3.1/name/india')
+// const data = request.send()
+// console.log(data)//undefined
 
-request.addEventListener('load', function (){
-  const data = this.responseText
-  const [obj] = JSON.parse(data)
-  console.log(obj) 
-})
+// request.addEventListener('load', function (){
+//   const data = this.responseText
+//   const [obj] = JSON.parse(data)
+//   console.log(obj) 
+// })
 console.log('huury buury')
 
+let a = 90
+console.log('wiuewi')
+console.log('iiuii')
+// const receiver = new XMLHttpRequest()
+// console.log(receiver
+console.log(undefined + 90)
+console.log(undefined + NaN)
+console.log(90 + 90)
+console.log(typeof 90)
 
+const ret = function (){
+  console.log('dueeeeeeeeeeee')
+}
+console.log(ret)
+// console.log(receiver)
+console.log('deed')
 
+console.log(ret)
+console.log()
 
 
 
