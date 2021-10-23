@@ -1,6 +1,9 @@
 // import { Array } from "core-js";
 
 console.log('welcome back then');
+console.log('welcome back then');
+console.log('welcome back then');
+
 
 let y = 78
 const arrayMohan = [
